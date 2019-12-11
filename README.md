@@ -1,13 +1,16 @@
-# Overview
+# Data release for the paper "Search for strongly lensed counterpart images of binary black hole mergers in the first two LIGO observing runs"
+### Authors: Connor McIsaac, David Keitel, Thomas Collett, Ian Harry, Simone Mozzon, Oliver Edy, David Bacon
 
-For each of the binary black hole events from GWTC-1 three files are supplied:
+## Overview
+
+For each of the binary black hole events from [GWTC-1](https://www.gw-openscience.org/catalog/GWTC-1-confident/) three files are supplied:
 
 - {EVENT}_results.csv
 - {EVENTS}_2hours_injections.csv
 - {EVENTS}_32days_injections.csv
 
 
-# Search results
+## Search results
 
 {EVENT}_results.csv : a list of candidates produced by the search for lensed
 counterparts to {EVENT}.
@@ -22,7 +25,7 @@ Inverse false alarm rate|The inverse of the false alarm rate, the rate of events
 Delay-weighted p-value|The false alarm probability using a delay-weighted ranking statistic given by: Inverse false alarm rate / Time diff.
 
 
-# Injections
+## Injections
 
 {EVENTS}_2hours_injections.csv : contains details of injections in a 2 hour
 window either side of {EVENT}.
@@ -52,3 +55,5 @@ Scale factor|The amplitude of the injected signal is divided by this value, equi
 Found after vetoes|True if a candidate was found at the time of the injection.
 Inverse false alarm rate|The inverse of the false alarm rate, the rate of events with equal or greater detection statistic values, given in seconds.
 Delay-weighted p-value|The false alarm probability using a delay-weighted ranking statistic given by: Inverse false alarm rate / Time diff.
+
+*There is no 2 hour injection set for GW170608, see appendix B of the paper for details
