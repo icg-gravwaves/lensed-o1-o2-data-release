@@ -9,6 +9,8 @@ For each of the binary black hole events from [GWTC-1](https://www.gw-openscienc
 - {EVENTS}_2hours_injections.csv
 - {EVENTS}_32days_injections.csv
 
+*There is no 2 hour injection set for GW170608, see appendix B of the paper for details
+
 
 ## Search results
 
@@ -56,4 +58,3 @@ Found after vetoes|True if a candidate was found at the time of the injection.
 Inverse false alarm rate|The inverse of the false alarm rate, the rate of events with equal or greater detection statistic values, given in seconds.
 Delay-weighted p-value|The false alarm probability using a delay-weighted ranking statistic given by: Inverse false alarm rate / Time diff.
 
-*There is no 2 hour injection set for GW170608, see appendix B of the paper for details
